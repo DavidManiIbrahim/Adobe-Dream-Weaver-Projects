@@ -1,0 +1,109 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="refresh" content="5" />
+    <title>Login II</title>
+</head>
+<style>
+    .container {
+        border: 1px solid;
+        width: 400px;
+        height: 500px;
+        margin: 50px auto;
+
+    }
+
+    .form {
+        margin-left: 10%;
+        text-align: left;
+    }
+
+    button {
+        background-color: blue;
+        padding: 10px;
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 12px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+
+    input {
+
+        padding: 8px;
+        width: 90%;
+        align-items: center;
+    }
+
+    .btn {
+        border: 1px solid;
+        border-radius: 5px;
+        width: 80%;
+        margin-top: 10px;
+        height: 35px;
+        display: flex;
+    }
+
+    #icon {
+
+        height: 20px;
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 80px;
+    }
+
+    a {
+        text-align: center;
+        margin-top: 5px;
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <div align="center" class="main">
+        <div align="center" class="container">
+            <div align="center" class="header">
+                <h2 align="center">Login</h2>
+                <p align="center" class="content">Dont have an account? <a href=""><b>sign up</b></a></p>
+            </div>
+            <form action="" method="get" name="form" target="_blank" class="form">
+                <label style="text-align:left;" for="Email" class="Email">Email:</label><br />
+                <input name="Email" type="Email" /> <br><br>
+                <label for="password" style="text-align:left" class="pwd">Password:</label><br />
+                <input name="password" type="password" /> <br />
+            </form>
+            <button value="Submit" type="submit">Login</button><br><br>
+            <label for="center" class="center">or</label> <br /><br>
+            <div align="center" id="btn"></div>
+            <div class="btn">
+                <img src="./images/google_240px.png" id="icon" alt="icon">
+                <a href="www.google.com">Sign in with google</a>
+                
+            </div>
+            <div class="btn">
+                <img src="./images/facebook_480px.png" id="icon" alt="icon">
+                <a href="www.facebook.com">Sign in with facebook
+
+                </a>
+            </div>
+            <div class="btn">
+                <img src="./images/linkedin_circled_240px.png" id="icon" alt="icon">
+                <a href="www.linkedin.com">Sign in with Linkedin</a>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
